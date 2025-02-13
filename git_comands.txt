@@ -1,7 +1,9 @@
-git init : initalize git
+
 git --version : git version
 git config --list : check wether username and email is added
-git config --global username : add username
-git config --global email : add email
+git config --global user.name : add username
+git config --global user.email : add email
+===============================================================
+git init : initalize git
 git add -A : add files to staging area 
 git commit -m "message" : commit with message
