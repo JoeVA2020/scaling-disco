@@ -7,3 +7,4 @@ git config --global user.email : add email
 git init : initalize git
 git add -A : add files to staging area 
 git commit -m "message" : commit with message
+git status : check status of files
