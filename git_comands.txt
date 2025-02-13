@@ -10,3 +10,4 @@ git commit -m "message" : commit with message
 git status : check status of files
 git remote add origin https://github.com/JoeVA2020/scaling-disco.git : add remote repository
 git remote -v : check wether remote is added
+git branch : lists branches in repository
