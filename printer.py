@@ -1,44 +1,23 @@
-def print_sunset():
+def print_filled_sunset():
     width = 21
+    height = 10
+    sun_center = width // 2
+    sun_radius = 4
 
-    # Print the sun (semi-circle shape)
-    for i in range(3):
+    for i in range(height):
         for j in range(width):
-            if width // 2 - i * 3 <= j <= width // 2 + i * 3:
+            # Draw the sun as a filled circle
+            if (i - 4) ** 2 + (j - sun_center) ** 2 <= sun_radius ** 2:
                 print("*", end="")
-            else:
-                print(" ", end="")
-        print()
-
-    # Sun rays
-    for i in range(2):
-        for j in range(width):
-            if j % 4 == 0:
+            # Draw the horizon line
+            elif i == 5:
+                print("=", end="")
+            # Draw water with a wavy pattern
+            elif i > 5:
                 print("*", end="")
+            # Sky above the sun
             else:
-                print(" ", end="")
-        print()
-
-    # Horizon line
-    print("*" * width)
-
-    # Water reflection
-    for i in range(3):
-        for j in range(width):
-            if width // 2 - i * 2 <= j <= width // 2 + i * 2:
                 print("*", end="")
-            else:
-                print(" ", end="")
         print()
 
-    # Waves
-    for i in range(2):
-        for j in range(width):
-            if j % 2 == 0:
-                print("~", end="")
-            else:
-                print(" ", end="")
-        print()
-
-
-print_sunset()
+print_filled_sunset()
