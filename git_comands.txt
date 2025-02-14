@@ -22,3 +22,45 @@ git push origin master:
 pit push -u origin:
 git pull origin : pulls the files in which changes are made to from remote to local
 git clone https : makes a exact clone of the repository
+
+Git commands || Sir notes
+
+command for chking git version
+
+>git --version
+
+command for initializing git in pwd
+
+>git init
+
+command for adding user name
+
+>git config --global user.name "username"
+
+command for adding user email
+
+>git config --global user.email "useremail"
+
+command for listing all untracked files
+
+>git status
+
+command for adding all untracked files to satging area
+
+>git add -A
+
+command for adding staged files to localrepository
+
+>git commit -m "commit message"
+
+command for adding remote
+
+>git remote add name path
+
+command for push
+
+>git push name branchName
+
+command for listing all branches
+
+>git branch
