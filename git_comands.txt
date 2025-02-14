@@ -1,10 +1,16 @@
 ## GIT COMMANDS
+============================
+Initialize and set up git
+-------------------------
 git --version : git version
 git config --list : check wether username and email is added
 git config --global user.name : add username
 git config --global user.email : add email
 
 ===============================================================
+
+Git commands
+-------------------
 git init : initalize git
 git add -A : add files to staging area 
 git commit -m "message" : commit with message
