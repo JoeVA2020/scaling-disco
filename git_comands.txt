@@ -13,3 +13,4 @@ git remote add origin https://github.com/JoeVA2020/scaling-disco.git : add remot
 git remote -v : check wether remote is added
 git branch : lists branches in repository
 git pull origin : pulls the files in which changes are made to from remote to local
+git clone https : makes a exact clone of the repository
