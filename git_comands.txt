@@ -3,6 +3,7 @@ git --version : git version
 git config --list : check wether username and email is added
 git config --global user.name : add username
 git config --global user.email : add email
+
 ===============================================================
 git init : initalize git
 git add -A : add files to staging area 
@@ -11,3 +12,4 @@ git status : check status of files
 git remote add origin https://github.com/JoeVA2020/scaling-disco.git : add remote repository
 git remote -v : check wether remote is added
 git branch : lists branches in repository
+git pull origin : pulls the files in which changes are made to from remote to local
